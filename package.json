@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"vitest": "^0.28.4"
+	},
+	"name": "vitest-testing",
+	"description": "Learning the Testing in Vite",
+	"version": "1.0.0",
+	"main": "index.js",
+	"devDependencies": {},
+	"scripts": {
+		"test": "vitest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
