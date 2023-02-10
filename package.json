@@ -6,7 +6,9 @@
 	"description": "Learning the Testing in Vite",
 	"version": "1.0.0",
 	"main": "index.js",
-	"devDependencies": {},
+	"devDependencies": {
+		"@vitest/coverage-c8": "^0.28.4"
+	},
 	"scripts": {
 		"test": "vitest"
 	},
