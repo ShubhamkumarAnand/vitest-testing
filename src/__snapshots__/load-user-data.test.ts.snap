@@ -1,0 +1,13 @@
+// Vitest Snapshot v1
+
+exports[`loadUserData > load user data as expected 1`] = `
+{
+  "coolness": 100,
+  "name": "shubham",
+  "projects": [
+    "buyzon",
+    "hindu-way",
+  ],
+  "username": "imskanand",
+}
+`;
