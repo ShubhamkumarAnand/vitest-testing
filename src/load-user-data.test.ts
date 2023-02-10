@@ -1,5 +1,20 @@
 import { loadUserData } from './load-user-data';
-import { describe, test, expect } from 'vitest';
+import { describe, test, expect, vi } from 'vitest';
+
+// vi.mock('./load-user-data', () => {
+// 	return {
+// 		loadUserData() {
+// 			return {
+// 				coolness: -1,
+// 				favoriteFood: 'Boiled Vegetables',
+// 				name: 'imskanand',
+// 				projects: [],
+// 				snack: false,
+// 				username: 'fakeUser',
+// 			};
+// 		},
+// 	};
+// });
 
 describe('loadUserData', () => {
 	test('load user data as expected', async () => {
