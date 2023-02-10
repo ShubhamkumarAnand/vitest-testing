@@ -4,7 +4,19 @@ import { describe, test, expect } from 'vitest';
 describe('loadUserData', () => {
 	test('load user data as expected', async () => {
 		const user = await loadUserData('imskanand');
-		expect(user).toMatchSnapshot();
+
+		expect(user).toMatchInlineSnapshot(`
+			{
+			  "coolness": 100,
+			  "favoriteFood": "litti-chokha",
+			  "name": "shubham",
+			  "projects": [
+			    "buyzon",
+			    "hindu-way",
+			  ],
+			  "username": "imskanand",
+			}
+		`);
 	});
 
 	test('Setting up the coolness correctly', async () => {
