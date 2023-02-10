@@ -16,6 +16,6 @@ describe('loadUserData', () => {
 	});
 
 	test('Throws the error which does not exists', async () => {
-		expect(async () => await loadUserData('fakeuser')).rejects.toThrowError('No User Found');
+		expect(async () => await loadUserData('fakeUser')).rejects.toThrowError('No User Found');
 	});
 });
