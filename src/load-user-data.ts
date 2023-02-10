@@ -4,6 +4,7 @@ interface User {
 	projects: string[];
 	coolness?: number;
 	favoriteFood: string;
+	snack: boolean;
 }
 
 async function loadUser(username: string): Promise<User | undefined> {
@@ -13,12 +14,14 @@ async function loadUser(username: string): Promise<User | undefined> {
 			name: 'shubham',
 			projects: ['buyzon', 'hindu-way'],
 			favoriteFood: 'litti-chokha',
+			snack: true,
 		},
 		{
 			username: 'satyamjee',
 			name: 'satyam',
 			projects: ['love', 'laugh'],
 			favoriteFood: 'litti-chokha',
+			snack: true,
 		},
 	];
 

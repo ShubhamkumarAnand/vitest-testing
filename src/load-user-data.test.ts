@@ -14,6 +14,7 @@ describe('loadUserData', () => {
 			    "buyzon",
 			    "hindu-way",
 			  ],
+			  "snack": true,
 			  "username": "imskanand",
 			}
 		`);
